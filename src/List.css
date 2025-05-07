@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+.icons > div {
+  padding: 0.5rem;
+  cursor: pointer;
+}
